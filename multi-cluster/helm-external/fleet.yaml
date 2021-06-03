@@ -5,7 +5,7 @@ targetCustomizations:
 - name: dev
   helm:
     values:
-      replicas: 2 
+      replicas: 1 
   clusterSelector:
     matchLabels:
       env: dev
